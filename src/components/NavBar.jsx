@@ -7,9 +7,9 @@ function NavBar() {
 
 
 
-    <Nav class="navbar navbar-dark bg-primary" id="navBarLinks" variant="underline">
+    <Nav class="navbar navbar-dark bg-dark" id="navBarLinks" variant="underline" style={{color:'white'}}>
        
-
+      
 
       <Nav.Item>
         <Nav.Link href="/home">Home</Nav.Link>
