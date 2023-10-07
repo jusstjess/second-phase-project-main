@@ -7,22 +7,14 @@
 - Incorporate client-side routing
 - Use data from an API
 
-## Introduction
-
-Now that you've learned the fundamentals of React, it's time to practice and
-expand your skills by making a React project from scratch!
-
-This assignment is open-ended when it comes to the actual content. You are free
-to create whatever you'd like, as long as it incorporates the requirements
-listed in these instructions.
 
 ## Requirements
 
-1. 🎯 You must make a single page application (only one `index.html` file) using
+1. ✅ You must make a single page application (only one `index.html` file) using
    `create-react-app`.
-2. 🎯Your app should use at least 3 components in a way that keeps your code well
+2. ✅Your app should use at least 3 components in a way that keeps your code well
    organized.
-3. 🎯There should be at least 3 client-side routes using [React
+3. 🎯There should be at least 2 client-side routes using [React
    Router][react-router]. Be sure to include a nav bar or other UI element that
    allows users to navigate between routes.              |
 

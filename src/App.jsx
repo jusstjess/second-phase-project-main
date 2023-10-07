@@ -5,11 +5,14 @@ import Button from 'react-bootstrap/Button';
 import './App.css'
 import CandyCarousel from './components/CandyCarousel';
 import './index.css'
+import NavBar from './components/NavBar';
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <NavBar />
     <Header />
     <CandyCarousel/>
     {/* <h1 style = {{color:'#FF4E0D'}}>Orange</h1> */}
