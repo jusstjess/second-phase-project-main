@@ -6,15 +6,18 @@ import './App.css'
 import CandyCarousel from './components/CandyCarousel';
 import './index.css'
 import NavBar from './components/NavBar';
+import Candies from './components/Candies';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+
     <NavBar />
     <Header />
     <CandyCarousel/>
+    <Candies />
     {/* <h1 style = {{color:'#FF4E0D'}}>Orange</h1> */}
       {/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
