@@ -59,23 +59,46 @@ button {
   }
 
   .card-image{
-    height: 180px; 
+    height: 170px; 
     width:125px;
+    margin-bottom:10px;
+    justify-content: auto;
+    
+ }
+
+ #cardImage{
+  margin-bottom: 15px;
+  height: 170px; 
+  width:125px;
+
  }
 
  #cardTitle{
-  margin-bottom: -20px;
   margin-top: -10px;
+  margin-bottom: -20px;
+
  }
 
- .addToCartButton{
+ #cardBody{
+  background-color: #000000;
+  color:white;
 
-  background-color: #e42c00;
-  font-size: 10px;
+  height: auto;;
+  width: auto;
+
  }
+
 
  #carousel{
 
   margin-bottom: 30px;
 
  }
+ .addToCartButton{
+  font-size:10px;
+ }
+ 
+ 
+
+ 
+ 
