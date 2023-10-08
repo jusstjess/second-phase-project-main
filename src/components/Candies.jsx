@@ -11,6 +11,7 @@ const Candies = () => {
         const resp = await fetch(candiesUrl);
         const jsonData = await resp.json();
         console.log(jsonData)
+        return jsonData
     }
     catch (error){
         console.error("an error has occured while fetching data",error);
