@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react"
+import CandyCards from "./CandyCards";
 
 
-const Candies = () => {
+
+const CandiesList = () => {
+    const [candies, setCandies]=useState([])
 
    
   useEffect(() => {
@@ -10,18 +13,33 @@ const Candies = () => {
     try{
         const resp = await fetch(candiesUrl);
         const jsonData = await resp.json();
-        console.log(jsonData)
-        return jsonData
+        console.log(jsonData);
+        setCandies(jsonData);
+
     }
     catch (error){
         console.error("an error has occured while fetching data",error);
         return null;
     }
 };
+
 fetchCandies();
 
   },[]);
+
+const candyDesc = candies.map((candy)=>{
+
+    const buttonText = candy.inventory >0 ?"Add to Cart":"Sold Out";
+
+
+return <CandyCards cardName={candy.name} cardPicture={candy.image} cardInventory={buttonText}cardPrice={candy.price}/>
+
+})
+return candyDesc
+
+
+
 }
 
 
-export default Candies;
+export default CandiesList;
