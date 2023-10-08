@@ -1,22 +1,26 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
+import '../index.css'
 
-function CandyCards({cardName, cardPicture, cardPrice, cardInventory, cardBody}) {
+
+function CandyCards({cardName, cardPicture, cardPrice, cardInventory}) {
   return (
-    <Row xs={1} md={3} className="g-4">
-      {Array.from({ length: 4 }).map((_, idx) => (
+    <Row xs={1} md={4} className="g-4">
+      {Array.from({ length: 1 }).map((_, idx) => (
         <Col key={idx}>
-          <Card>
+          <Card className='card-image' >
             <Card.Img variant="top" src={cardPicture} />
             <Card.Body>
-              <Card.Title style={{textAlign:'center'}}>
-              <h2>{cardName}</h2></Card.Title>
-              <Card.Text>
-              <h1>
-              {cardBody}
-              {cardName}
-              </h1>
+              <Card.Title id='cardTitle' style={{textAlign:'center' , paddingBottom: '-30'}}>
+              <p style = {{fontSize: 15}} >{cardName}</p>
+              </Card.Title>
+              <Card.Text style={{paddingTop: '-30px'}}>
+              <p style={{fontSize: 13}}>
+              {cardPrice}
+              <Button >{cardInventory}</Button>
+              </p>
              </Card.Text>
             </Card.Body>
           </Card>
