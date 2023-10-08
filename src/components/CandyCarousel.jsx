@@ -11,7 +11,7 @@ const airheads = <img src="https://bringtheheatsweets.com/cdn/shop/products/Airh
 const textColor ={color:'white'};
 
   return (
-    <Carousel>
+    <Carousel id="carousel">
       <Carousel.Item height='100px' width ='100px'>
         {Gushers}
         <Carousel.Caption>
