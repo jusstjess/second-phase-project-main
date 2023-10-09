@@ -20,18 +20,18 @@ const textColor ={color:'white'};
      our entire inventory! You can't <em>NOT</em> try them. </strong></p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item height='100px' width='80px'>
       {mysteryMix}
-        <Carousel.Caption height='80px' width='80px'>
-          <h2 style = {textColor}><strong>Mystery Mix Fuego</strong></h2>
+        <Carousel.Caption id='caption'>
+          <h3 style = {textColor}><strong>Mystery Mix Fuego</strong></h3>
           <p style = {textColor}><strong>Our Mystery Mix Contains at Least 6     
           Different Types Of Candy & Is Our Second Best Seller.</strong></p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item height='80px' width ="80px">
       {airheads}
-        <Carousel.Caption height='80px' width ="80px">
-          <h2 style={textColor}><strong>Airheads Fuego</strong></h2>
+        <Carousel.Caption id='caption' >
+          <h3 style={textColor}><strong>Airheads Fuego</strong></h3>
           <p style= {textColor}><strong>
            Last But Definitely Not Least, We Have Our Airheads Fuego Coming In Third Place. </strong>
           </p>
