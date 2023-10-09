@@ -1,35 +1,33 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
+import '../index.css';
+import {Link} from 'react-router-dom'
 
 function NavBar() {
+
   return (
-
-
-
-    <Nav class="navbar navbar-dark bg-dark" id="navBarLinks" variant="underline" style={{color:'white'}}>
-       
+ 
+   
+    <Nav class="navbar navbar-dark bg-dark" id="nav" variant="underline" style={{color:'white'}}>
       
-
       <Nav.Item>
-        <Nav.Link href="/home">Home</Nav.Link>
+        <Link to="/">Home</Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-1">Shop Now</Nav.Link>
+        <Link to="/ShopNow">Shop Now</Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="disabled">
+        <Link to="/ContactUs" >
           Contact Us
-        </Nav.Link>
+        </Link>
       </Nav.Item>
        <Nav.Item>
-        <Nav.Link eventKey="disabled">
+        <Link  to="/Cart">
           Cart 
-        </Nav.Link>
-      </Nav.Item>
-       
-
+        </Link>
+          </Nav.Item>
     </Nav>
+  
 
   );
 }
