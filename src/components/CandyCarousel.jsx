@@ -12,26 +12,26 @@ const textColor ={color:'white'};
 
   return (
     <Carousel id="carousel">
-      <Carousel.Item height='100px' width ='100px'>
+      <Carousel.Item height='80px' width ='80px'>
         {Gushers}
         <Carousel.Caption>
-          <h2 style = {textColor} >Gushers Fuego</h2>
+          <h3 style = {textColor} ><strong>Gushers Fuego</strong></h3>
           <p  style= {textColor}> <strong>Gushers are our <em>absolute number one seller</em> from <br/>
      our entire inventory! You can't <em>NOT</em> try them. </strong></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       {mysteryMix}
-        <Carousel.Caption height='100px' width='100px'>
-          <h2 style = {textColor}>Mystery Mix Fuego</h2>
+        <Carousel.Caption height='80px' width='80px'>
+          <h2 style = {textColor}><strong>Mystery Mix Fuego</strong></h2>
           <p style = {textColor}><strong>Our Mystery Mix Contains at Least 6     
           Different Types Of Candy & Is Our Second Best Seller.</strong></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       {airheads}
-        <Carousel.Caption height='100px' width ="100px">
-          <h2 style={textColor}>Airheads Fuego</h2>
+        <Carousel.Caption height='80px' width ="80px">
+          <h2 style={textColor}><strong>Airheads Fuego</strong></h2>
           <p style= {textColor}><strong>
            Last But Definitely Not Least, We Have Our Airheads Fuego Coming In Third Place. </strong>
           </p>
