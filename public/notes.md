@@ -14,7 +14,7 @@
    `create-react-app`.
 2. ✅Your app should use at least 3 components in a way that keeps your code well
    organized.
-3. 🎯There should be at least 2 client-side routes using [React
+3. ✅There should be at least 2 client-side routes using [React
    Router][react-router]. Be sure to include a nav bar or other UI element that
    allows users to navigate between routes.              |
 

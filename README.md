@@ -1,8 +1,27 @@
-# React + Vite
+# Favorite BTHS product
+Bring the Heat Sweets: Is an app to purchase spicy candy from our family-run small business. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+install the npm package to run json-server
+
+
+```bash
+npm install json-server
+```
+run 
+
+```bash
+json-server --watch db.json
+```
+
+
+
+## Support:
+For any questions, concerns or even tips on bettering our site please email us at 
+bringtheheatsweets@gmail.com
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
