@@ -1,11 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './components/Header';
 import './App.css'
-import CandyCarousel from './components/CandyCarousel';
-import CandyCards from "./components/CandyCards";
 import './index.css'
 import NavBar from './components/NavBar';
-import CandiesList from "./components/pages/CandiesList";
 import { Route, Routes } from "react-router-dom";
 import Cart from "./components/pages/Cart";
 import ContactUs from "./components/pages/ContactUs";
