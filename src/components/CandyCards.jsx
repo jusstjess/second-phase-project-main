@@ -5,6 +5,8 @@ import '../index.css'
 
 
 function CandyCards({cardName, cardPicture, cardPrice,btnColor, btnText}) {
+
+  
   return (
    
           <Card  border="black" className='card-image' >
