@@ -40,7 +40,6 @@ h1 {
 
  #nav
 {
-
   position: fixed;
   top: 0;
   left: 0;
@@ -111,6 +110,7 @@ h1 {
 
  #ContactUs{
   color: #FF4E0D;
+  font-size: medium;
  }
  
  #header{

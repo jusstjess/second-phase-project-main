@@ -7,8 +7,6 @@ function ShopNow(){
         <CandiesList />
         <br/>
         </div>
-
-
     )
 }
 
