@@ -1,5 +1,5 @@
 import React from "react";
-import CandiesList from "./CandiesList";
+import CandiesList from "../CandiesList";
 
 function ShopNow(){
     return (
